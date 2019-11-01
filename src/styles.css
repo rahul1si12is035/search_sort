@@ -1,0 +1,46 @@
+.app-wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.app-wrapper h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.app-wrapper input {
+  height: 50px;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding: 10px 25px;
+}
+
+.app-wrapper table {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.app-wrapper table thead th {
+  height: 30px;
+  background: grey;
+  cursor: pointer;
+  position: relative;
+}
+
+.app-wrapper table thead th span {
+  color: white;
+  position: absolute;
+  right: 10px;
+}
+
+.app-wrapper tbody tr {
+  text-align: center;
+}
+
+.app-wrapper tbody tr td {
+  padding: 20px 0;
+}
+/*# sourceMappingURL=styles.css.map */

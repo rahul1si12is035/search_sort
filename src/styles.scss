@@ -1,0 +1,47 @@
+.app-wrapper {
+  width: 100vw;
+  height: 100vh;
+
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  input {
+    height: 50px;
+    width: 50vw;
+    display: flex;
+    margin: auto;
+    padding: 10px 25px;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 50px;
+
+    thead {
+      th {
+        height: 30px;
+        background: grey;
+        cursor: pointer;
+        position: relative;
+
+        span {
+          color: white;
+          position: absolute;
+          right: 10px;
+        }
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      text-align: center;
+
+      td {
+        padding: 20px 0;
+      }
+    }
+  }
+}
